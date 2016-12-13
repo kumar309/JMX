@@ -1,13 +1,9 @@
 package com.jmx.example;
 
-import com.jmx.example.ISystemConfigMBean;
-
-import javax.management.DynamicMBean;
-
 /**
  * Created by Kumar on 11/30/2016.
  */
-public class SystemConfig implements ISystemConfigMBean {
+public class SystemConfig implements ISystemConfigMXBean {
     private int noOfThreads;
     private String name;
 
